@@ -13,19 +13,19 @@ const setupInput = function (conn) {
 const handleUserInput = function (key) {
   if (key === 'w') {
     connection.write("Move: up");
-    console.log("UP");
+    // console.log("UP");
   }
   if (key === 'a') {
     connection.write("Move: left");
-    console.log("LEFT");
+    // console.log("LEFT");
   }
   if (key === 's') {
     connection.write("Move: down");
-    console.log("DOWN");
+    // console.log("DOWN");
   }
   if (key === 'd') {
     connection.write("Move: right");
-    console.log("RIGHT");
+    // console.log("RIGHT");
   }
   if (key === "\u0003") {
     process.exit();
