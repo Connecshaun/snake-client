@@ -9,6 +9,18 @@ const setupInput = function () {
 };
 
 const handleUserInput = function (key) {
+  if (input === 'w') {
+    connection.write("Move: up");
+  }
+  if (input === 'a') {
+    connection.write("Move: left");
+  }
+  if (input === 's') {
+    connection.write("Move: down");
+  }
+  if (input === 'd') {
+    connection.write("Move: right")
+  }
   if (key === "\u0003") {
     process.exit();
   }
