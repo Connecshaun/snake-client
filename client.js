@@ -1,3 +1,5 @@
+const net = require("net");
+
 const connect = function () {
   const conn = net.createConnection({
     host: "localhost",
@@ -7,9 +9,15 @@ const connect = function () {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
+  conn.on('connect', () => {
+    console.log("These snakes are fun and not terrifying")
+  })
+
   conn.on('data', (data) => {
     console.log(data)
   });
 
   return conn;
 };
+
+module.exports = connect;
