@@ -4,7 +4,7 @@ Snake is a pre-existing video game whereby you play the snake and you have a sim
 
 This is a stripped-down version of the game to play with and code-up as you like.
 
-Before you can play, you will need to be running the server side which you can download and install on your computer from here:
+Before you can play, you will need to be running the server side which you can download and install on your computer from here...
 
 Clone from the repo:
 git clone https://github.com/lighthouse-labs/snek-multiplayer.git
