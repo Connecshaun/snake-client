@@ -15,7 +15,10 @@ npm run play
 
 ## **Some Screen Shots of the Final Product**
 
-!["Here we see the snake moving across the full gaming screen"](/images/casualSnake.png)
+*Here we see a screen grab of the snake moving across the full gaming screen.*
+!["Here we see a screen grab of the snake moving across the full gaming screen"](/images/casualSnake.png)
+
+*Here we see our sname being more agressive moving towards food and telling all onlookers or future fellow snakes to "get your own sando.*
 !["Here we see our sname being more agressive moving towards food and telling all onlookers or future fellow snakes to "get your own sando"](/images/getYourOwnSando.png)
 
 
